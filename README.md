@@ -9,6 +9,14 @@ Developers need to inform those who do not know that the latest version has been
 Howeverm obtaining a version from the App Store and comparing it with the version installed on the terminal is not a difficult implementation, but it will take a while.  
 Therefore we created a framework to easily compare application versions and display alerts to prompt for updates.
 
+## Installation
+Just add YMTVersionAlert foloder to your project  
+
+or use CocoaPods with Podfile:
+```
+pod 'YMTVersionAlert'
+```
+
 ## Usage
 Import 
 
@@ -51,4 +59,4 @@ override func viewDidAppear(_ animated: Bool) {
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT](https://github.com/MasamiYamate/YMTVersionAlert/blob/master/LICENSE)
